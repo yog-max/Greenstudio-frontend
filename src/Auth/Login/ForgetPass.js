@@ -1,4 +1,3 @@
-import { de } from "react-day-picker/locale";
 import React, { useState } from "react";
 import axios from "axios";
 import { toast } from "react-toastify";
