@@ -3,7 +3,6 @@ import "./Recentphotoshot.css"
 
 function Recentphotoshot()
 {
-     let num=0;
      let location=useLocation();
      console.log(location);
      const queryParams = new URLSearchParams(location.search);
