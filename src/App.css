@@ -1,0 +1,92 @@
+
+
+.App {
+  min-height: 100vh;
+  text-align: center;
+  background-image: url("/public/Assests/Images/Ui_img1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events:none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 1s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #c6eb4c;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+
+}
+ 
+  .image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 15px;
+  padding: 20px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.image-wrapper {
+  width: 100%;
+  aspect-ratio: 1 / 1;   /* makes perfect square */
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.grid-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;    /* crop nicely */
+  transition: transform 0.4s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ANIMATION */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

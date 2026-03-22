@@ -1,0 +1,255 @@
+.App {
+  min-height: 100vh;
+  text-align: center;
+  background-image: url("/public/Assests/Images/Ui_img1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+/* .App {
+  min-height: 100vh;
+  text-align: center;
+
+  background-image: url("/public/Assests/Images/Ui_img1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position:relative;
+  
+  /* background: linear-gradient(135deg, #134e5e, #71b280); */
+/*
+ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg clip-path='url(%26quot%3b%23SvgjsClipPath8394%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='url(%26quot%3b%23SvgjsLinearGradient8395%26quot%3b)'%3e%3c/rect%3e%3ccircle r='20.695' cx='99.87' cy='80.22' fill='%2343468b'%3e%3c/circle%3e%3ccircle r='43.55' cx='236.66' cy='542.58' fill='url(%26quot%3b%23SvgjsLinearGradient8396%26quot%3b)'%3e%3c/circle%3e%3ccircle r='32.56' cx='1395.13' cy='312' fill='url(%26quot%3b%23SvgjsLinearGradient8397%26quot%3b)'%3e%3c/circle%3e%3ccircle r='32.39' cx='58.3' cy='230.48' fill='url(%26quot%3b%23SvgjsLinearGradient8398%26quot%3b)'%3e%3c/circle%3e%3ccircle r='53.835' cx='682.4' cy='421.61' fill='%2343468b'%3e%3c/circle%3e%3ccircle r='17.265' cx='1153.8' cy='328.67' fill='url(%26quot%3b%23SvgjsLinearGradient8399%26quot%3b)'%3e%3c/circle%3e%3ccircle r='16.915' cx='289.76' cy='309.55' fill='url(%26quot%3b%23SvgjsLinearGradient8400%26quot%3b)'%3e%3c/circle%3e%3ccircle r='40.42' cx='909.05' cy='262.45' fill='url(%26quot%3b%23SvgjsLinearGradient8401%26quot%3b)'%3e%3c/circle%3e%3c/g%3e%3cdefs%3e%3cclipPath id='SvgjsClipPath8394'%3e%3crect width='1440' height='560' x='0' y='0'%3e%3c/rect%3e%3c/clipPath%3e%3clinearGradient x1='100%25' y1='50%25' x2='0%25' y2='50%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient8395'%3e%3cstop stop-color='%230e2a47' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(0%2c 124%2c 158%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='323.76' y1='629.6800000000001' x2='149.56' y2='455.48' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient8396'%3e%3cstop stop-color='%23e298de' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='rgba(50%2c 47%2c 126%2c 1)' offset='0.84'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='1460.2500000000002' y1='377.12' x2='1330.0100000000002' y2='246.88' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient8397'%3e%3cstop stop-color='%23e298de' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='rgba(50%2c 47%2c 126%2c 1)' offset='0.84'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='58.3' y1='295.26' x2='58.3' y2='165.7' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient8398'%3e%3cstop stop-color='%23ab3c51' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='rgba(87%2c 75%2c 140%2c 1)' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='1153.8' y1='363.2' x2='1153.8' y2='294.14' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient8399'%3e%3cstop stop-color='%23ab3c51' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='rgba(87%2c 75%2c 140%2c 1)' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='289.76' y1='343.38' x2='289.76' y2='275.72' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient8400'%3e%3cstop stop-color='%23ab3c51' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='rgba(87%2c 75%2c 140%2c 1)' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='909.05' y1='343.28999999999996' x2='909.05' y2='181.60999999999999' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient8401'%3e%3cstop stop-color='%23ab3c51' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='rgba(87%2c 75%2c 140%2c 1)' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+*/
+ /* } */ 
+/* .header23{
+  color: #0e0e0c;
+  text-shadow: #75bbe7;
+  text-wrap-style: inherit;
+}
+
+.hero-section {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.06);
+  margin-bottom: 60px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.hero-left {
+  flex: 1;
+}
+.hero-left h1 {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #111;
+}
+
+.hero-left p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.hero-buttons button {
+  padding: 12px 28px;
+  border-radius: 30px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  margin-right: 15px;
+  transition: 0.3s ease;
+}
+.primary-btn {
+  background: #2e7d32;
+  color: #fff;
+}
+.primary-btn:hover {
+  background: #1b5e20;
+  transform: translateY(-3px);
+}
+
+.secondary-btn {
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+
+.secondary-btn:hover {
+  background: #c8e6c9;
+  transform: translateY(-3px);
+}
+.hero-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-right img {
+  width: 90%;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  transition: 0.4s ease;
+}
+
+.hero-right img:hover {
+  transform: scale(1.03);
+}
+.services-section {
+  text-align: center;
+}
+
+.services-section h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+  font-weight: 700;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.service-card {
+  background: #ffffff;
+  padding: 40px 25px;
+  border-radius: 20px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.05);
+  transition: 0.3s ease;
+   animation: fadeIn 3s ease-in-out; 
+ 
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.08);
+}
+
+.icon {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.service-card h3 {
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.service-card p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.service-card button {
+  background: #2e7d32;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.service-card button:hover {
+  background: #1b5e20;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.h1tag{
+  /* font-family: "Comic Sans MS", cursive; */
+  /* letter-spacing: 2px;
+  opacity: 100%;
+  color: rgb(241, 244, 245);
+font-family: "Cinzel", serif;
+font-weight: bold;
+font-size: 40px;  
+}
+.div1 {
+   display: flex;
+  margin-left: 50px;
+  align-items: center;
+  border-style:groove;
+  border-radius: 20px;
+  margin: 10px;
+  box-shadow:inset;
+  padding: 5px;
+  margin: 20px 60px;
+
+
+}
+.div1:hover{
+   transform: translateY(-1px);
+}
+.first_i {
+  height: 320px;
+  width: 450px;
+  border-radius: 10px ;
+}
+.text1{
+  font-style:oblique;
+  color:rgb(249, 251, 252);
+   text-shadow: 0 4px 10px rgba(245,245,245,0.9)
+
+}
+.bookbt{
+  border-radius: 15px;
+  background-color: #41b3f0;
+  color: azure;
+  border-color: #f9f9f9;
+  height: 50px;
+  width: 300px;
+  border : 1px solid #f9f9f9;
+  border-top: #69f072;
+  
+
+}
+.bookbt:hover{
+  background-color: rgb(28, 159, 241);
+}
+.contact{
+  background-color: rgb(198, 219, 242);
+  color: rgb(21, 1, 1);
+  border-radius: 20px;
+}
+/* WhatsApp Floating */
+/* .whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.whatsapp-float a {
+  display: flex;
+  align-items: center;
+  background-color: #25d366;
+  padding: 10px 15px;
+  border-radius: 50px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.whatsapp-float img {
+  width: 28px;
+  margin-right: 8px;
+}
+
+.whatsapp-float a:hover {
+  background-color: #1ebe5d;
+}  */

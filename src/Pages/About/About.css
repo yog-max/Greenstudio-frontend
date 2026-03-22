@@ -1,0 +1,81 @@
+.about-container {
+  padding: 60px 20px;
+  text-align: center;
+  /* background: linear-gradient(to right, #b5b6f0, #fdb4dc); */
+  min-height: 100vh;
+}
+
+.main-title {
+  letter-spacing: 2px;
+  color: rgb(250, 252, 252);
+font-family: "Cinzel", serif;
+font-weight: bold;
+font-size: 40px;
+}
+
+/* Cards */
+.card {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h2 {
+  color: #0f130f;
+  margin-bottom: 15px;
+}
+
+.card p {
+  color: #555;
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+/* Contact */
+.contact-section {
+  margin-top: 50px;
+}
+
+.contact-buttons button {
+  padding: 12px 22px;
+  margin: 10px;
+  border: none;
+  border-radius: 30px;
+  background-color: #2e7d32;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-buttons button:hover {
+  background-color: #1b5e20;
+  transform: scale(1.05);
+}
+
+/* Location */
+.location-section {
+  margin-top: 50px;
+}
+
+.map-container iframe {
+  border-radius: 15px;
+  margin-top: 20px;
+}
+
+/* Tagline */
+.tagline {
+  margin-top: 50px;
+  font-style: italic;
+  color: #444;
+}
+
+
