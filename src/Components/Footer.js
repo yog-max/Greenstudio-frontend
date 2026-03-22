@@ -14,7 +14,7 @@ function Footer({ isLoggedIn }) {
 
         {/* Logo + About */}
         <div className="footer-section">
-          <img id="gs321" src="/Assests/Images/Studio_logo.png" /><br/>
+          <img id="gs321" src="/Assests/Images/Studio_logo.png" alt="Green studio logo"/><br/>
           <p>
             Capturing beautiful moments with creativity and passion.
             Book your events with Green Studio and make memories
