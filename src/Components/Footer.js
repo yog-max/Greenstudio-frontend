@@ -64,10 +64,10 @@ function Footer({ isLoggedIn }) {
 
           <div className="social-icons">
 
-            <a href="#"><FaFacebook /></a>
-            <a href="#"><FaInstagram /></a>
-            <a href="#"><FaWhatsapp /></a>
-            <a href="#"><FaYoutube /></a>
+            <a href="https://www.facebook.com/"><FaFacebook /></a>
+            <a href="https://www.instagram.com/?hl=en"><FaInstagram /></a>
+            <a href="https://web.whatsapp.com/"><FaWhatsapp /></a>
+            <a href="https://youtube.com"><FaYoutube /></a>
 
           </div>
         </div>
