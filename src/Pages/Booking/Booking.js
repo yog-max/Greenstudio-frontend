@@ -22,7 +22,6 @@ function Booking() {
 
   const [selectedRange, setSelectedRange] = useState();
   const [bookedDates, setBookedDates] = useState([]);
-  const navigate = useNavigate();
 
   const today = new Date();
   const minDate = new Date();
