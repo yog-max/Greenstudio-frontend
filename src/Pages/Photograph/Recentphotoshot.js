@@ -29,23 +29,13 @@ function Recentphotoshot()
  <>
     <h2 className="text-white">Here Green Studio latest clicks</h2>
 
-      {/* {num} <br/>
-
-      <button onClick={
-         ()=>{
-            num=num+1;
-            console.log('update '+num);
-         }
-      }>update</button> */}
-
        <div className="image-grid"> {images.map((src, index) =>
              ( <div className="image-wrapper" key={index}> 
              <img src={src} alt={`img-${index}`} 
              loading="lazy" 
-             className="grid-image" /> </div> ))} </div>
-        
-    {/* <Slider/>  */}
-
+          className={`grid-image opacity-0 animate-fadeIn`}
+            style={{ animationDelay: `${index * 0.3}s` }}
+            onLoad={(e) => e.currentTarget.classList.remove("opacity-0")}
     </>
     )
    
