@@ -27,7 +27,7 @@ function Recentphotoshot()
 
     return(
  <>
-    <h2 className="h1tag">Here Green Studio latest clicks</h2>
+    <h2 className="h1tag" style={color:"white"}>Here Green Studio latest clicks</h2>
 
       {/* {num} <br/>
 
