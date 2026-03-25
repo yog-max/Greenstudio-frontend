@@ -75,7 +75,7 @@ function Home({ isLoggedIn }) {
           <img
             src="/Assests/Images/Cover_image.jpg"
             alt="Green Studio"
-            className="w-full max-w-xs sm:max-w-sm md:max-w-md rounded-2xl shadow-xl hover:scale-105 transition-transform duration-300 
+            className="w-full max-w-xs sm:max-w-sm md:max-w-md rounded-2xl shadow-xl hover:scale-105 transition-transform duration-100 
               opacity-0 transition-opacity duration-500" onLoad={(e) => e.currentTarget.classList.remove('opacity-0')}
           />
         </div>
@@ -118,7 +118,7 @@ function Home({ isLoggedIn }) {
       {/* PHOTO SECTION 1 */}
       <div className="flex flex-col md:flex-row items-center gap-6 mx-4 md:mx-14 my-5 p-4 md:p-6 border border-gray-400 rounded-2xl hover:-translate-y-1 transition-transform duration-300">
         <img
-          src="/Assests/images/home_img1.jpg"
+          src="/Assests/Images/home_img1.jpg"
           alt="moments"
           className="w-full md:w-96 h-56 md:h-72 object-cover rounded-xl"
         />
@@ -160,7 +160,7 @@ function Home({ isLoggedIn }) {
       {/* PHOTO SECTION 2 */}
       <div className="flex flex-col md:flex-row-reverse items-center gap-6 mx-4 md:mx-14 my-5 p-4 md:p-6 border border-gray-400 rounded-2xl hover:-translate-y-1 transition-transform duration-300">
         <img
-          src="/Assests/images/home_img2.jpg"
+          src="/Assests/Images/home_img2.jpg"
           alt="wedding"
           className="w-full md:w-96 h-56 md:h-72 object-cover rounded-xl"
         />
@@ -183,7 +183,7 @@ function Home({ isLoggedIn }) {
       {/* PHOTO SECTION 3 */}
       <div className="flex flex-col md:flex-row items-center gap-6 mx-4 md:mx-14 my-5 p-4 md:p-6 border border-gray-400 rounded-2xl hover:-translate-y-1 transition-transform duration-300">
         <img
-          src="/Assests/images/home_img5.jpg"
+          src="/Assests/Images/home_img5.jpg"
           alt="birthday"
           className="w-full md:w-96 h-56 md:h-72 object-cover rounded-xl"
         />
@@ -206,7 +206,7 @@ function Home({ isLoggedIn }) {
       {/* PHOTO SECTION 4 */}
       <div className="flex flex-col md:flex-row-reverse items-center gap-6 mx-4 md:mx-14 my-5 p-4 md:p-6 border border-gray-400 rounded-2xl hover:-translate-y-1 transition-transform duration-300">
         <img
-          src="/Assests/images/home_img4.jpg"
+          src="/Assests/Images/home_img4.jpg"
           alt="pre-wedding"
           className="w-full md:w-96 h-56 md:h-72 object-cover rounded-xl"
         />
@@ -229,7 +229,7 @@ function Home({ isLoggedIn }) {
       {/* PHOTO SECTION 5 */}
       <div className="flex flex-col md:flex-row items-center gap-6 mx-4 md:mx-14 my-5 p-4 md:p-6 border border-gray-400 rounded-2xl hover:-translate-y-1 transition-transform duration-300">
         <img
-          src="/Assests/images/home_img6.jpg"
+          src="/Assests/Images/home_img6.jpg"
           alt="party"
           className="w-full md:w-96 h-56 md:h-72 object-cover rounded-xl"
         />
@@ -258,7 +258,7 @@ function Home({ isLoggedIn }) {
       {/* WHATSAPP FLOAT */}
 <div className="fixed bottom-5 right-5 z-50">
   
-   <a href="https://wa.me/917702057436"
+   <a href="https://wa.me/918688514389"
     target="_blank"
     rel="noopener noreferrer"
     className="flex items-center gap-2
@@ -270,7 +270,7 @@ function Home({ isLoggedIn }) {
              no-underline"
     >
     <img
-      src="/Assests/images/Whatsapp.png"
+      src="/Assests/Images/Whatsapp.png"
       alt="WhatsApp"
       className="w-8 h-8"
     />
