@@ -71,7 +71,7 @@ if (!passwordMatch) {
               Username
             </label>
             <input
-              type="text"
+              type="email"
               name="userName"
               value={user.userName}
               onChange={handleChange}
