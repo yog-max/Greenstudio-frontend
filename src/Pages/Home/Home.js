@@ -48,7 +48,7 @@ function Home({ isLoggedIn }) {
 
       {/* HERO SECTION */}
       <section className="flex flex-col md:flex-row items-center justify-between bg-white rounded-2xl shadow-lg p-6 md:p-14 m-4 md:m-8 gap-8 ">
-        <div className="flex-1 text-center md:text-left transform transition-transform duration-[3000ms] ease-in-out translate-y-2">
+        <div className="flex-1 text-center md:text-left">
           <h1 className="text-2xl md:text-4xl font-bold text-gray-900 mb-4">
             OUR CREATIVE SERVICES
           </h1>
