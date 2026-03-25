@@ -77,7 +77,7 @@ function About() {
       {/* WhatsApp Floating Button */}
       <div className="fixed bottom-5 right-5 z-50">
   
-   <a href="https://wa.me/917702057436"
+   <a href="https://wa.me/918688514389"
     target="_blank"
     rel="noopener noreferrer"
     className="flex items-center gap-2
@@ -89,7 +89,7 @@ function About() {
              no-underline"
     >
     <img
-      src="/Assests/images/Whatsapp.png"
+      src="/Assests/Images/Whatsapp.png"
       alt="WhatsApp"
       className="w-8 h-8"
     />
