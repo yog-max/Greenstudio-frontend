@@ -47,8 +47,8 @@ function Home({ isLoggedIn }) {
     <div className="w-full overflow-x-hidden">
 
       {/* HERO SECTION */}
-      <section className="flex flex-col md:flex-row items-center justify-between bg-white rounded-2xl shadow-lg p-6 md:p-14 m-4 md:m-8 gap-8">
-        <div className="flex-1 text-center md:text-left">
+      <section className="flex flex-col md:flex-row items-center justify-between bg-white rounded-2xl shadow-lg p-6 md:p-14 m-4 md:m-8 gap-8 ">
+        <div className="flex-1 text-center md:text-left transform transition-transform duration-[3000ms] ease-in-out translate-y-2">
           <h1 className="text-2xl md:text-4xl font-bold text-gray-900 mb-4">
             OUR CREATIVE SERVICES
           </h1>
@@ -75,7 +75,8 @@ function Home({ isLoggedIn }) {
           <img
             src="/Assests/Images/Cover_image.jpg"
             alt="Green Studio"
-            className="w-full max-w-xs sm:max-w-sm md:max-w-md rounded-2xl shadow-xl hover:scale-105 transition-transform duration-300"
+            className="w-full max-w-xs sm:max-w-sm md:max-w-md rounded-2xl shadow-xl hover:scale-105 transition-transform duration-300 
+              opacity-0 transition-opacity duration-500" onLoad={(e) => e.currentTarget.classList.remove('opacity-0')}
           />
         </div>
       </section>
