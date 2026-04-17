@@ -77,7 +77,7 @@ function MyProfile() {
         {/* HEADING */}
         <h2 className="text-center text-white font-bold
                         text-2xl md:text-4xl tracking-wide mb-8">
-          👤 My Profile
+           Your Profile
         </h2>
 
         {/* ── USER DETAILS SECTION ── */}
@@ -103,7 +103,7 @@ function MyProfile() {
                               transition-colors duration-200">
                 <th className="bg-green-600 text-white font-semibold
                                 text-sm px-6 py-4 text-left w-40">
-                  👤 User Name
+                   User Name
                 </th>
                 <td className="px-6 py-4 text-gray-700 font-medium text-sm">
                   {userDetails.userName}
@@ -114,7 +114,7 @@ function MyProfile() {
               <tr className="hover:bg-green-50 transition-colors duration-200">
                 <th className="bg-green-600 text-white font-semibold
                                 text-sm px-6 py-4 text-left w-40">
-                  📱 Mobile No
+                   Mobile No
                 </th>
                 <td className="px-6 py-4 text-gray-700 font-medium text-sm">
                   {userDetails.mobileNo}
@@ -167,28 +167,28 @@ function MyProfile() {
               <thead>
                 <tr className="bg-green-600 text-white text-sm">
                   <th className="px-4 py-4 text-left font-semibold whitespace-nowrap">
-                    👤 Full Name
+                     Full Name
                   </th>
                   <th className="px-4 py-4 text-left font-semibold whitespace-nowrap">
-                    📱 Mobile No
+                     Mobile No
                   </th>
                   <th className="px-4 py-4 text-left font-semibold whitespace-nowrap">
-                    📍 Location
+                     Location
                   </th>
                   <th className="px-4 py-4 text-left font-semibold whitespace-nowrap">
-                    🎭 Event Type
+                     Event Type
                   </th>
                   <th className="px-4 py-4 text-left font-semibold whitespace-nowrap">
-                    📅 Start Date
+                     Start Date
                   </th>
                   <th className="px-4 py-4 text-left font-semibold whitespace-nowrap">
-                    📅 End Date
+                     End Date
                   </th>
                   <th className="px-4 py-4 text-left font-semibold whitespace-nowrap">
-                    🏛️ Event Location
+                     Event Location
                   </th>
                   <th className="px-4 py-4 text-left font-semibold whitespace-nowrap">
-                    🔖 Status
+                     Status
                   </th>
                 </tr>
               </thead>

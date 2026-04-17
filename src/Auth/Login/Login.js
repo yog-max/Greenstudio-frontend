@@ -12,6 +12,7 @@ function Login({ setIsLoggedIn }) {
     password: ""
   });
   const [showPassword, setShowPassword] = useState(false);
+  const [loading, setLoading]   = useState(false);
 
   const handleChange = (e) => {
     setLoginData({ ...loginData, [e.target.name]: e.target.value });
@@ -19,6 +20,7 @@ function Login({ setIsLoggedIn }) {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setLoading(true);
     try {
       const response = await axios.post(
         API_URLS.LOGIN, loginData
@@ -42,6 +44,9 @@ function Login({ setIsLoggedIn }) {
         toast.error("Server Error. Please try again later.");
       }
     
+    }
+    finally {
+      setLoading(false); 
     }
   };
 
@@ -117,6 +122,7 @@ function Login({ setIsLoggedIn }) {
 
               <button
                 type="button"
+                disabled={loading}
                 onClick={() => setShowPassword(!showPassword)}
                 className="absolute right-3 top-1/2 -translate-y-1/2
                            text-gray-400 hover:text-gray-600
@@ -147,7 +153,7 @@ function Login({ setIsLoggedIn }) {
                        shadow-md hover:shadow-lg
                        text-sm tracking-wide"
           >
-            Login
+            {loading ? "Logging in..." : "Login"}
           </button>
 
           <div className="flex items-center gap-3 my-5">

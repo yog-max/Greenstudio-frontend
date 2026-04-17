@@ -4,8 +4,10 @@ import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 function Footer({ isLoggedIn }) {
 
+  const navigate = useNavigate();
+
   const year = new Date().getFullYear();
-   const navigate = useNavigate();
+   
 
   return (
     <footer className="footer">

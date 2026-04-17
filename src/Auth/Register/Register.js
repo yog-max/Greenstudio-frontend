@@ -11,6 +11,7 @@ function Register() {
     mobileNo: "",
     gender: ""
   });
+  const [loading, setLoading]   = useState(false);  
   const [confirmPassword, setConfirmPassword] = useState("");
   const [passwordMatch, setPasswordMatch] = useState(null);
 
@@ -20,6 +21,7 @@ function Register() {
 
   const handleConfirmPassword = (e) => {
   setConfirmPassword(e.target.value);
+
   if (e.target.value === user.password) {
     setPasswordMatch(true);
   } else {
@@ -29,7 +31,7 @@ function Register() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
+    setLoading(true);
     if (user.mobileNo.toString().length !== 10) {
   toast.error("Mobile number must be exactly 10 digits.");
   return;
@@ -47,6 +49,9 @@ if (!passwordMatch) {
       setPasswordMatch(null);
     } catch (error) {
       toast.error("Registration Failed. Please try again.");
+    }
+    finally {
+      setLoading(false); 
     }
   };
 
@@ -186,12 +191,13 @@ if (!passwordMatch) {
           <div className="flex gap-4">
             <button
               type="submit"
+              disabled={loading}
               className="flex-1 bg-green-600 hover:bg-green-700
                          text-white font-semibold py-2 rounded-lg
                          transition-all duration-300 hover:-translate-y-1
                          shadow-md hover:shadow-lg"
             >
-              Register
+             {loading?"Registering..":"Register"}
             </button>
             <button
               type="reset"

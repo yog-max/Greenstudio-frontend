@@ -19,8 +19,7 @@ import UserProfile from './Pages/Profile/UserProfile';
 import Admin from './Pages/Admin/Admin';
 import AdminLogin from './Pages/Admin/AdminLogin';
 
-// ── AppLayout — inside BrowserRouter ──
-// useLocation only works inside BrowserRouter
+
 function AppLayout({ isLoggedIn, setIsLoggedIn }) {
 
     const location = useLocation();
