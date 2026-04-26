@@ -155,7 +155,7 @@ function Menu({ isLoggedIn, setIsLoggedIn }) {
 
                 {/* HAMBURGER — mobile only */}
                 <button onClick={() => setMenuOpen(!menuOpen)}
-                    className="md:hidden flex flex-col justify-center items-center gap-[5px]  w-[50px] h-[50px] rounded-lg bg-orange-500 hover:bg-orange-600 border-none cursor-pointer">
+                    className="md:hidden flex flex-col justify-center items-center gap-[5px]  w-[45px] h-[45px] rounded-lg bg-orange-500 hover:bg-orange-600 border-none cursor-pointer">
                     <span className={`block w-6 h-[3px] bg-white rounded transition-all duration-300 ${menuOpen ? "rotate-45 translate-y-[8px]" : ""}`} />
                     <span className={`block w-6 h-[3px] bg-white rounded transition-all duration-300 ${menuOpen ? "opacity-0" : "opacity-100"}`} />
                     <span className={`block w-6 h-[3px] bg-white rounded transition-all duration-300 ${menuOpen ? "-rotate-45 -translate-y-[8px]" : ""}`} />
@@ -261,7 +261,6 @@ function Menu({ isLoggedIn, setIsLoggedIn }) {
                 </ul>
             </div>
 
-            {/* Spacer */}
             <div className="h-[70px]" />
         </>
     );

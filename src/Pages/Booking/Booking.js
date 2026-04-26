@@ -18,9 +18,9 @@ function Booking() {
     endDate: "",
     eventLocation: ""
   });
-
   const [selectedRange, setSelectedRange] = useState();
   const [bookedDates, setBookedDates] = useState([]);
+  const [loading, setLoading]   = useState(false);
 
   const today = new Date();
   const minDate = new Date();
@@ -49,6 +49,7 @@ function Booking() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+     setLoading(true);
     const userId = localStorage.getItem("userId");
     const bookingData = { ...booking, [e.target.name]: e.target.value };
 
@@ -69,6 +70,9 @@ function Booking() {
     } catch (error) {
       toast.error("Booking Failed. Please try again.");
       console.error(error);
+    }
+    finally{
+      setLoading(false);
     }
   };
 
@@ -305,7 +309,7 @@ function Booking() {
                          shadow-md hover:shadow-lg
                          transition-all duration-300 hover:-translate-y-1"
             >
-               Submit Booking
+              {loading ? "please wait...":"submit booking"}
             </button>
             <button
               type="reset"
