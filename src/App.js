@@ -3,7 +3,6 @@ import { BrowserRouter, Route, Routes, useLocation } from 'react-router-dom';
 import { useState } from 'react';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-
 import Menu from './Components/Menu';
 import Footer from './Components/Footer';
 import ProtectedRoute from './Components/ProtectedRoute';
