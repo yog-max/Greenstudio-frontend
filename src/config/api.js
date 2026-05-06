@@ -3,7 +3,7 @@
 // Based on your exact Spring Boot controllers
 
 const API = process.env.REACT_APP_API_URL;
-console.log("Balesh: ",API);
+
 
 const API_URLS = {
 
